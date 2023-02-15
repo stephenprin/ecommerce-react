@@ -1,11 +1,16 @@
 import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+// import { Navbar, Sidebar, Footer } from './components'
 
-function App() {
- 
 
+
+import { Home } from './screen'
+
+
+const App = () => { 
   return (
     <>
-      <h1>hE</h1>
+    <Home/>
     </>
   )
 }
